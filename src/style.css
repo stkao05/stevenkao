@@ -1,0 +1,116 @@
+:root {
+  --background: #fafafa;
+  --text-color: #141414;
+
+  --background: #141414;
+  --text-color: #fafafa;
+  --subtext-color: hsl(0, 0%, 70%);
+
+  /* grid */
+  --column-count: 12;
+  --gutter: 26px;
+  --column: calc(
+    (1440px - (var(--column-count) - 1) * var(--gutter)) / var(--column-count)
+  );
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "iA Writer Mono S", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 100;
+  background: var(--background);
+  color: var(--text-color);
+}
+
+body {
+  margin: 0;
+  padding-top: calc(2 * var(--gutter));
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-size: 1rem;
+  line-height: var(--gutter);
+  font-weight: normal;
+  margin: 0 0 calc(1 * var(--gutter)) 0;
+}
+
+p {
+  font-size: 1rem;
+  margin: var(--gutter) 0;
+}
+
+main {
+  margin: 0 auto;
+  width: calc(5 * var(--column) + 4 * var(--gutter));
+}
+
+nav {
+  position: fixed;
+  top: 2 * var(--gutter);
+  left: var(--gutter);
+  display: flex;
+  flex-direction: column;
+
+  a {
+  }
+}
+
+.typewriter {
+  outline: none;
+}
+
+.subtext {
+  color: var(--subtext-color);
+}
+
+.work-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.work-list li > p {
+  margin-top: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.container *:first-child {
+  margin-left: 0;
+}
+
+.mt-3 {
+  margin-top: calc(3 * var(--gutter));
+}
+
+.one-columns {
+  width: calc(1 * var(--column));
+  margin-left: var(--gutter);
+}
+
+.four-columns {
+  width: calc(4 * var(--column) + 3 * var(--gutter));
+  margin-left: var(--gutter);
+}
+
+.five-columns {
+  width: calc(5 * var(--column) + 4 * var(--gutter));
+  margin-left: var(--gutter);
+}
+
+.offset-three {
+  margin-left: calc(3 * var(--column) + 3 * var(--gutter));
+}

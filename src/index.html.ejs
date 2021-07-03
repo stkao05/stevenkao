@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" type="text/css" charset="utf-8" />
+    <script src="https://cdn.jsdelivr.net/npm/@stkao05/layout-grid/src/index.js"></script>
+  </head>
+
+  <body>
+    <style type="text/css">
+      layout-grid {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 10000;
+      }
+    </style>
+
+    <main>
+      <h1>Hi, I am <span data-type-writer class="typewriter" contenteditable spellcheck="false">steven kao</span></h1>
+      <div>
+        <%= locals.foo %>
+      </div>
+      <section>
+        <p>
+          I grow up in Taiwan, studied computer science in Canada (UBC), and has
+          worked with web since then.
+        </p>
+        <p>
+          I have worked with a wide spectrum of projects related to web - from
+          building a SaaS for enterprise client to crafting web app for popular
+          consumer web app. My last gig was at Doist working on the Todoist.
+        </p>
+      </section>
+      <section class="container mt-3">
+        <h2 class="one-columns">Work</h2>
+        <ul class="four-columns work-list">
+          <li>
+            <div>Doist</div>
+            <p class="subtext">
+              Product development of a productivity app, Todoist. I worked in
+              full stack. Building API service to crafting user interface
+            </p>
+          </li>
+          <li>
+            <div>Fliptop</div>
+            <p class="subtext">Predictive sales and marketing firm</p>
+          </li>
+          <li>
+            <div>Research in Motion</div>
+            <p class="subtext">Blackberry compnay</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
