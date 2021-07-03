@@ -1,0 +1,48 @@
+{
+  "works": [
+    {
+      "title": "Doist",
+      "description": "A remote company that made the Todoist app. Full stack development for the Todoist web app"
+    },
+    {
+      "title": "Fliptop",
+      "description": "A US startup company that provide predictive sales and marketing SaaS. Backend development for its client data pipeline service"
+    },
+    {
+      "title": "Research in Motion",
+      "description": "The film that creates the Blackberry phone. Worked on the WebWorks project, a framework for mobile web app development"
+    }
+  ],
+  "projects": [
+    {
+      "title": "react-interpolate",
+      "description": "A string interpolation component that formats and interpolates a template string in a safe way",
+      "link": "https://github.com/stkao05/react-interpolate"
+    },
+    {
+      "title": "idb-storage",
+      "description": "idb-storage is a key-value asynchronous storage that uses indexedDB as underlaying storage",
+      "link": "https://github.com/stkao05/idb-storage"
+    },
+    {
+      "title": "layout-grid",
+      "description": "A custom element that displays an overlaying grid on the page to allow you to layout your elements with more precision",
+      "link": "https://github.com/stkao05/layout-grid"
+    },
+    {
+      "title": "deferred-storage",
+      "description": "A key-value storage that enables a performant usage of localStorage with the Background Tasks API",
+      "link": "https://github.com/stkao05/deferredStorage"
+    },
+    {
+      "title": "claude",
+      "description": "Type specimen website for the Claude, a variable font designed by Chiachi Chao",
+      "link": "https://github.com/stkao05/claude"
+    },
+    {
+      "title": "workable-hide-rating",
+      "description": "Chrome extension that hide candidate rating on Workable.com so that you can have a unbiased review",
+      "link": "https://chrome.google.com/webstore/detail/workable-hide-rating/chefggglihkhnomhphbbmclhdkpegnid"
+    }
+  ]
+}

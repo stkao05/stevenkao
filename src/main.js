@@ -80,7 +80,7 @@
     off = true;
   });
 
-      await wait(3000);
+  await wait(3000);
   cursorToEnd();
   messageRotation();
 })();

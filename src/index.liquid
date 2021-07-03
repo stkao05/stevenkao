@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" type="text/css" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg" href="./images/favicon.svg">
+    <title>steven kao</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@stkao05/layout-grid/src/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <style type="text/css">
+      layout-grid {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 10000;
+      }
+    </style>
+
+    <h1 class="site-head">steven kao</h1>
+
+    <main>
+      <section>
+        <p>
+        I find great satisfaction building stuff. When I was a kid, the desire for building things was fulfilled with Lego. Now my creative medium is code.
+        </p>
+        <p>
+        My works were centered around the web with a focus on the front end side - an area where the arts of good design and craftsmanships interplay and of which I deep appreciate.
+        </p>
+        <p>
+        My last gig was at Doist, from where I have learned to be a proficient remote worker and had a great pleasure to work on the Todoist app.
+        </p>
+      </section>
+      <section class="info-list mt-2">
+        <h2 class="info-list--title">Work</h2>
+        <ul class="info-list--list">
+        {% for item in works %}
+          <li>
+            <div>
+              {{ item.title }}
+            </div>
+            <p class="subtext">{{ item.description }}</p>
+          </li>
+        {% endfor %}
+        </ul>
+      </section>
+      <section class="info-list mt-1">
+        <h2 class="info-list--title">Project</h2>
+        <ul class="info-list--list">
+        {% for project in projects %}
+          <li>
+            <div>
+              <a href="{{ project.link }}" target="_blank" rel="noopener">{{ project.title }}</a>
+            </div>
+            <p class="subtext">{{ project.description }}</p>
+          </li>
+        {% endfor %}
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+    </footer>
+  </body>
+</html>

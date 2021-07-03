@@ -19,21 +19,28 @@
 }
 
 html {
-  font-family: "iA Writer Mono S", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
-  line-height: 26px;
-  font-weight: 100;
+  font-weight: 400;
+  line-height: var(--gutter);
   background: var(--background);
   color: var(--text-color);
 }
 
 body {
   margin: 0;
-  padding-top: calc(2 * var(--gutter));
 }
 
 a {
   color: var(--text-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus-visible {
   text-decoration: none;
 }
 
@@ -53,64 +60,79 @@ p {
 main {
   margin: 0 auto;
   width: calc(5 * var(--column) + 4 * var(--gutter));
+  max-width: 100%;
+  padding: var(--gutter);
 }
 
-nav {
+footer {
+  position: sticky;
+}
+
+.site-head {
   position: fixed;
-  top: 2 * var(--gutter);
+  top: var(--gutter);
   left: var(--gutter);
-  display: flex;
-  flex-direction: column;
-
-  a {
-  }
-}
-
-.typewriter {
-  outline: none;
 }
 
 .subtext {
   color: var(--subtext-color);
 }
 
-.work-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.mt-1 {
+  margin-top: calc(var(--gutter));
 }
 
-.work-list li > p {
-  margin-top: 0;
-}
-
-.container {
-  display: flex;
-}
-
-.container *:first-child {
-  margin-left: 0;
+.mt-2 {
+  margin-top: calc(2 * var(--gutter));
 }
 
 .mt-3 {
   margin-top: calc(3 * var(--gutter));
 }
 
-.one-columns {
+.info-list {
+  display: flex;
+}
+
+.info-list *:first-child {
+  margin-left: 0;
+}
+
+.info-list--title {
   width: calc(1 * var(--column));
   margin-left: var(--gutter);
 }
 
-.four-columns {
+.info-list--list {
   width: calc(4 * var(--column) + 3 * var(--gutter));
   margin-left: var(--gutter);
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.five-columns {
-  width: calc(5 * var(--column) + 4 * var(--gutter));
-  margin-left: var(--gutter);
+.info-list--list li > p {
+  margin-top: 0;
 }
 
-.offset-three {
-  margin-left: calc(3 * var(--column) + 3 * var(--gutter));
+@media (max-width: 640px) {
+  main {
+    padding-top: calc(3 * var(--gutter));
+  }
+
+  .info-list {
+    display: block;
+    margin-bottom: calc(2 * var(--gutter));
+  }
+
+  .info-list--list {
+    width: 100%;
+    margin: 0;
+  }
+
+  .info-list--title {
+    width: 100%;
+    margin: 0 0 calc(var(--gutter) * 0.5) 0;
+    border-bottom: 1px solid var(--text-color);
+  }
 }
