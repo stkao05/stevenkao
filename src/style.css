@@ -1,7 +1,4 @@
 :root {
-  --background: #fafafa;
-  --text-color: #141414;
-
   --background: #141414;
   --text-color: #fafafa;
   --subtext-color: hsl(0, 0%, 70%);
