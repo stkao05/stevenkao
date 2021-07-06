@@ -18,6 +18,15 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./inter-web/Inter-Light.woff2?v=3.19") format("woff2"),
+    url("./inter-web/Inter-Light.woff?v=3.19") format("woff");
+}
+
 html {
   font-family: "Inter", sans-serif;
   font-size: 16px;
