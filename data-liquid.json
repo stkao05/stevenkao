@@ -6,11 +6,11 @@
     },
     {
       "title": "Fliptop",
-      "description": "A US startup company that provide predictive sales and marketing SaaS. Backend development for its client data pipeline service"
+      "description": "A US startup company that provided predictive sales and marketing SaaS. Backend development for its client data pipeline service"
     },
     {
       "title": "Research in Motion",
-      "description": "The film that creates the Blackberry phone. Worked on the WebWorks project, a framework for mobile web app development"
+      "description": "The company that creates the Blackberry phone. Worked on the WebWorks project, a framework for mobile web app development"
     }
   ],
   "projects": [
@@ -41,7 +41,7 @@
     },
     {
       "title": "workable-hide-rating",
-      "description": "Chrome extension that hide candidate rating on Workable.com so that you can have a unbiased review",
+      "description": "Chrome extension that hides candidate rating on Workable.com so that you can have an unbiased review",
       "link": "https://chrome.google.com/webstore/detail/workable-hide-rating/chefggglihkhnomhphbbmclhdkpegnid"
     }
   ]
