@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel src/index.liquid",
+    "start": "parcel src/index.liquid --no-cache",
     "build": "parcel build src/index.liquid --out-dir ./docs",
     "validate": "html-validate ./docs/index.html"
   },
