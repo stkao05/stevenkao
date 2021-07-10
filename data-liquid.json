@@ -2,11 +2,11 @@
   "works": [
     {
       "title": "Doist",
-      "description": "A remote company that made the Todoist app. Full stack development for the Todoist web app"
+      "description": "A remote company and creator of the Todoist app. Full stack development for the Todoist web app"
     },
     {
       "title": "Fliptop",
-      "description": "A US startup company that provided predictive sales and marketing SaaS. Backend development for its client data pipeline service"
+      "description": "A US startup company that provides predictive sales and marketing SaaS. Backend development for its client data pipeline service"
     },
     {
       "title": "Research in Motion",
@@ -26,7 +26,7 @@
     },
     {
       "title": "layout-grid",
-      "description": "A custom element that displays an overlaying grid on the page to allow you to layout your elements with more precision",
+      "description": "A custom element that displays an overlaying grid on the page, allowing for more precise when laying out page elements",
       "link": "https://github.com/stkao05/layout-grid"
     },
     {
