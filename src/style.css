@@ -1,6 +1,7 @@
 :root {
   --background: #141414;
   --text-color: #fafafa;
+  --inactive-color: #6e6e6e;
   --subtext-color: hsl(0, 0%, 70%);
 
   /* grid */
@@ -39,11 +40,20 @@ body {
 
 a {
   color: var(--text-color);
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+
+  /*display: inline-block;*/
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--subtext-color);
+  text-decoration-color: var(--subtext-color);
+}
+
+a:active {
+  color: var(--inactive-color);
+  text-decoration-color: var(--inactive-color);
 }
 
 a:focus-visible {
