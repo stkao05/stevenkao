@@ -46,6 +46,18 @@
         {% endfor %}
         </ul>
       </section>
+      <section class="info-list mt-1">
+        <h2 class="info-list--title">Links</h2>
+        <ul class="info-list--list">
+        {% for item in links %}
+          <li class="mb-1">
+            <div>
+              <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+            </div>
+          </li>
+        {% endfor %}
+        </ul>
+      </section>
     </main>
   </body>
 </html>

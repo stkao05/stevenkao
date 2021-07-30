@@ -44,5 +44,15 @@
       "description": "Chrome extension that hides candidate rating on Workable.com so that you can have an unbiased review",
       "link": "https://chrome.google.com/webstore/detail/workable-hide-rating/chefggglihkhnomhphbbmclhdkpegnid"
     }
+  ],
+  "links": [
+    {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/stkao/"
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/stkao05"
+    }
   ]
 }
