@@ -1,8 +1,8 @@
 :root {
-  --background: #141414;
-  --text-color: #fafafa;
-  --inactive-color: #6e6e6e;
-  --subtext-color: hsl(0, 0%, 70%);
+  --background: #222;
+  --text-color: #eee;
+  --inactive-color: #aaa;
+  --subtext-color: #aaa;
 
   /* grid */
   --column-count: 12;
@@ -27,7 +27,7 @@
 
 html {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: var(--gutter);
   background: var(--background);
