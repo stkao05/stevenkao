@@ -16,17 +16,17 @@
   "projects": [
     {
       "title": "react-interpolate",
-      "description": "A string interpolation component that formats and interpolates a template string in a safe way",
+      "description": "A lightweight React component library for string interpolation",
       "link": "https://github.com/stkao05/react-interpolate"
     },
     {
       "title": "idb-storage",
-      "description": "idb-storage is a key-value asynchronous storage that uses indexedDB as underlaying storage",
+      "description": "A lightweight key-value storage library with indexedDB",
       "link": "https://github.com/stkao05/idb-storage"
     },
     {
       "title": "layout-grid",
-      "description": "A custom element that displays an overlaying grid on the page, allowing for more precise when laying out page elements",
+      "description": "A Web Component that displays an overlaying grid on pages to improve page element layout.",
       "link": "https://github.com/stkao05/layout-grid"
     },
     {
